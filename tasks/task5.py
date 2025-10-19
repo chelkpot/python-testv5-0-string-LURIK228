@@ -2,13 +2,12 @@
 
 def solve():
 # Ниже пишите решение задачи
-    f=input()
-    g=input()
-    h=input()
-    gag1=ord(f)
-    gag2=ord(g)
-    gag3=ord(h)
-    print("Код символа " + str(f) + " равен " + str(gag1) + '\n' + "Код символа " + str(g) + " равен " + str(gag2) + '\n'+ "Код символа " + str(h) + " равен " + str(gag3))
+    a,b,c=map(str, input().split())
+    ord1=ord(a)
+    ord2=ord(b)
+    ord3=ord(c)
+    print("Код символа " + str(a) + " равен " + str(ord1) + '\n' + "Код символа " + str(b) + " равен " + str(ord2) + '\n'+ "Код символа " + str(c) + " равен " + str(ord3))
+
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()
