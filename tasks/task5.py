@@ -5,10 +5,10 @@ def solve():
     f=input()
     g=input()
     h=input()
-    print("код символа", f, "равен", ord(f)) 
-    print("код символа", g, "равен", ord(g))
-    print("код символа", h, "равен", ord(h))
-   
+    gag1=ord(f)
+    gag2=ord(g)
+    gag3=ord(h)
+    print("Код символа " + str(f) + " равен " + str(gag1) + '\n' + "Код символа " + str(g) + " равен " + str(gag2) + '\n'+ "Код символа " + str(h) + " равен " + str(gag3))
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()
